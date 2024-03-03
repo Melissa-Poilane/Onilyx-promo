@@ -1,0 +1,27 @@
+.carrousel {
+
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    text-align: center;
+    gap: var(--space3x);
+    margin-left: var(--space2x);
+}
+
+.carousel__image {
+    width: auto;
+    height: 290px;
+    border-radius: 5px;
+}
+
+.carousel__element {
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.carousel__title {
+  padding: 0;
+  margin: var(--space1x);
+}

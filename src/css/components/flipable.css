@@ -1,0 +1,240 @@
+.flipable {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    width: 165px;
+    height: 165px;
+    display: inline-block;
+}
+
+.flipable.flip {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.flipable .face {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0.1px);
+}
+
+.flipable .back {
+    transform: rotateY(180deg);
+}
+
+.flipable .face {
+    border-radius: 10px;
+}
+
+.musique1 .back {
+    background: url(/public/img/cards/flipables/musique1-2.webp);
+    background-size: cover;
+}
+
+.musique1 .front {
+    background-image: url(/public/img/cards/flipables/musique1-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique1 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+
+.musique2 .back {
+    background: url(/public/img/cards/flipables/musique2-2.webp);
+    background-size: cover;
+}
+
+.musique2 .front {
+    background-image: url(/public/img/cards/flipables/musique2-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique2 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.musique3 .back {
+    background: url(/public/img/cards/flipables/musique3-2.webp);
+    background-size: cover;
+}
+
+.musique3 .front {
+    background-image: url(/public/img/cards/flipables/musique3-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique3 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film1 .back {
+    background: url(/public/img/cards/flipables/film1-2.webp);
+    background-size: cover;
+}
+
+.film1 .front {
+    background-image: url(/public/img/cards/flipables/film1-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film1 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film2--en .back {
+    background: url(/public/img/cards/flipables/film2-2-en.webp);
+    background-size: cover;
+}
+
+.film2--en .front {
+    background-image: url(/public/img/cards/flipables/film2-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film2--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film3--en .back {
+    background: url(/public/img/cards/flipables/film3-3-en.webp);
+    background-size: cover;
+}
+
+.film3--en .front {
+    background-image: url(/public/img/cards/flipables/film3-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film3--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film1--en .back {
+    background: url(/public/img/cards/flipables/film1-2-en.webp);
+    background-size: cover;
+}
+
+.film1--en .front {
+    background-image: url(/public/img/cards/flipables/film1-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film1--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film2 .back {
+    background: url(/public/img/cards/flipables/film2-2.webp);
+    background-size: cover;
+}
+
+.film2 .front {
+    background-image: url(/public/img/cards/flipables/film2-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film2 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.film3 .back {
+    background: url(/public/img/cards/flipables/film3-2.webp);
+    background-size: cover;
+}
+
+.film3 .front {
+    background-image: url(/public/img/cards/flipables/film3-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.film3 .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+
+
+.musique1--en .back {
+    background: url(/public/img/cards/flipables/musique1-2--en.webp);
+    background-size: cover;
+}
+
+.musique1--en .front {
+    background-image: url(/public/img/cards/flipables/musique1-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique1--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+
+.musique2--en .back {
+    background: url(/public/img/cards/flipables/musique2-2--en.webp);
+    background-size: cover;
+}
+
+.musique2--en .front {
+    background-image: url(/public/img/cards/flipables/musique2-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique2--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}
+
+.musique3--en .back {
+    background: url(/public/img/cards/flipables/musique3-2--en.webp);
+    background-size: cover;
+}
+
+.musique3--en .front {
+    background-image: url(/public/img/cards/flipables/musique3-1.webp);
+    background-size: 100%;
+    transition: background 0.3s;
+}
+
+.musique3--en .front:hover {
+    background-size: 110%;
+    background-position: 50% 50%;
+    transition: background 0.5s;
+}

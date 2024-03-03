@@ -1,0 +1,130 @@
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formulaire__content {
+    color: var(--orange-clair);
+    margin-bottom: var(--space1x);
+}
+
+input::placeholder {
+    color: var(--orange-clair);
+}
+
+.adresse__text {
+    background-color: var(--noir);
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1.2px solid var(--orange-clair);
+
+}
+
+.prenom__text {
+    background-color: var(--noir);
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1.2px solid var(--orange-clair);
+}
+
+.email__text {
+    background-color: var(--noir);
+    font-family: var(--body-petit);
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1.2px solid var(--orange-clair);
+}
+
+.message__text {
+    margin-top: 1vh;
+    background-color: var(--noir);
+    width: 100%;
+    height: 115px;
+    border-color: var(--orange-clair);
+    border-width: 1.2px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    color: var(--orange-clair);
+}
+
+.formulaire__nom>span {
+
+    color: var(--rose-qui-pete);
+}
+
+.formulaire__container {
+    text-align: center;
+
+}
+
+.formulaire__btn {
+    background-color: var(--rouge);
+    font-size: var(--button);
+    letter-spacing: var(--letter-spacing);
+    color: var(--blanc);
+    font-family: var(--font-novecento);
+    padding: 20px 30px;
+    border-radius: 5px;
+
+}
+
+small {
+    margin-top: -15px;
+}
+
+.contact-start {
+    margin-top: var(--space3x);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 15px;
+    border: 1.3px solid var(--rouge);
+    background-color: var(--blanc);
+    border-radius: 2px;
+    position: absolute;
+    top: 5px;
+}
+
+input[type="checkbox"]:checked::before {
+    border: 1px solid var(--vert-qui-pete);
+    background-image: url(/public/icones/check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--vert-qui-pete);
+}
+
+.checkable {
+    margin-bottom: 0;
+    margin-top: var(--space1x);
+    font-size: var(--body-3);
+    line-height: 1.2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    color: var(--orange-clair);
+}

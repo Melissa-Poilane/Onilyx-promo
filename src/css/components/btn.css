@@ -1,0 +1,70 @@
+.card__btn {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background: var(--noir);
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card__link {
+    color: var(--blanc);
+    font-size: var(--button);
+    font-family: var(--font-novecento);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+}
+
+.wiki-card__btn {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+
+.wiki-card__btn--content {
+    color: var(--noir);
+    font-size: var(--button);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-big-spacing);
+    font-family: var(--font-novecento);
+    text-decoration: none;
+    margin-right: var(--space2x);
+    padding-bottom: var(--space1x);
+}
+
+.wiki-card__btn--content::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 3px;
+    border-bottom: 2px var(--noir) solid;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--button);
+    color: var(--blanc);
+    letter-spacing: var(--letter-spacing);
+    border: 1px solid var(--blanc);
+    padding: var(--space2x) var(--space3x);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space2x);
+    border-radius: 5px;
+    font-family: var(--font-novecento);
+
+}
+
+.btn-fin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

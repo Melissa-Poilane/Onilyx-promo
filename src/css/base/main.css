@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Les règles typographiques générales qui s'appliquent à tout le site */
+body {
+    font-family: var(--font-dax);
+    font-size: var(--body-1);
+    line-height: 150%;
+    background-color: var(--noir);
+    color: var(--blanc);
+}
+
+h1,
+h2,
+h4 {
+    font-family: var(--font-novecento);
+    letter-spacing: var(--letter-spacing);
+    line-height: 110%;
+}
+
+h1 {
+    font-size: var(--heading-1);
+}
+
+h2 {
+    font-size: var(--heading-2);
+}
+
+h3 {
+    font-family: var(--font-lcd2);
+    font-size: var(--heading-3);
+    line-height: 80%;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: var(--heading-4);
+}
+
+h5 {
+    font-size: var(--heading-5);
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+button {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+section>h2 {
+    margin-bottom: var(--space2x);
+    display: flex;
+    justify-content: center;
+    padding-top: var(--space2x);
+    position: relative;
+}
+
+section>h2::before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    top: 0;
+    border-top: 2px solid var(--rouge);
+}
+
+span>a {
+    text-decoration: none;
+    color: var(--orange-normal);
+}

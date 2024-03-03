@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'nanami-light';
+    src: url('nanami-light-webfont.woff2') format('woff2'),
+        url('nanami-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nanami-regular';
+    src: url('nanami-regular-webfont.woff2') format('woff2'),
+        url('nanami-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nanami_outline-regular';
+    src: url('nanami-outlineregular-webfont.woff2') format('woff2'),
+        url('nanami-outlineregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'Delm-semilight';
+    src: url('Delm-SemiLight.woff2') format('woff2'),
+        url('Delm-SemiLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'nanami-bold';
+    src: url('nanami-bold-webfont.woff2') format('woff2'),
+        url('nanami-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
