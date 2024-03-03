@@ -10,38 +10,36 @@ html {
 
 /* Les règles typographiques générales qui s'appliquent à tout le site */
 body {
-    font-family: var(--font-dax);
+    font-family: var(--font-delm);
     font-size: var(--body-1);
-    line-height: 150%;
-    background-color: var(--noir);
-    color: var(--blanc);
+    line-height: 110%;
+    background-color: var(--luvulite);
+    color: var(--howlite);
 }
 
 h1,
 h2,
+h3,
 h4 {
-    font-family: var(--font-novecento);
-    letter-spacing: var(--letter-spacing);
+    font-family: var(--font-nanami-R);
+    letter-spacing: var(--letter-spacing-heading);
     line-height: 110%;
 }
 
 h1 {
-    font-size: var(--heading-1);
+    font-size: var(--h1--tres-gros);
 }
 
 h2 {
-    font-size: var(--heading-2);
+    font-size: var(--h2--gros);
 }
 
 h3 {
-    font-family: var(--font-lcd2);
-    font-size: var(--heading-3);
-    line-height: 80%;
-    font-weight: 400;
+    font-size: var(---h3--normal);
 }
 
 h4 {
-    font-size: var(--heading-4);
+    font-size: var(--h4--petit);
 }
 
 h5 {
