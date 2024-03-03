@@ -79,3 +79,67 @@ span>a {
     text-decoration: none;
     color: var(--orange-normal);
 }
+
+
+/********************** NAV *************************
+*****************************************************/
+
+.nav-links {
+    display: block;
+    position: static;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.nav-links ul {
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 1em;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+
+
+/********************** HERO *************************
+*****************************************************/
+
+#top {
+    min-height: 750px;
+    background: #1D976C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom, #360033, #300e41, #223166, #105e94);
+    background: linear-gradient(to right bottom, #360033, #300e41, #223166, #105e94);
+    color: #fff;
+}
+
+/********************** DESKTOP NAV **************************
+**************************************************************/
+
+
+
+.positioning {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+
+/********************** DESKTOP FIXES *************************
+**************************************************************/
+
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
