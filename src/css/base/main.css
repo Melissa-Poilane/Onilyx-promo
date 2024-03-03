@@ -42,11 +42,6 @@ h4 {
     font-size: var(--h4--petit);
 }
 
-h5 {
-    font-size: var(--heading-5);
-    line-height: 160%;
-    text-transform: uppercase;
-}
 
 button {
     appearance: none;
@@ -57,26 +52,6 @@ button {
 }
 
 
-section>h2 {
-    margin-bottom: var(--space2x);
-    display: flex;
-    justify-content: center;
-    padding-top: var(--space2x);
-    position: relative;
-}
-
-section>h2::before {
-    content: "";
-    position: absolute;
-    width: 260px;
-    top: 0;
-    border-top: 2px solid var(--rouge);
-}
-
-span>a {
-    text-decoration: none;
-    color: var(--orange-normal);
-}
 
 
 /********************** NAV *************************
