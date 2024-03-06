@@ -51,33 +51,10 @@ button {
     cursor: pointer;
 }
 
-
-
-
-/********************** NAV *************************
-*****************************************************/
-
-.nav-links {
-    display: block;
-    position: static;
-    padding: 25px 0;
-    width: 100%;
-}
-
-.nav-links ul {
-    float: right;
-}
-
-.nav-links li {
-    display: inline-block;
-    margin-left: 45px;
-    font-size: 1em;
-    color: white;
-    padding: 10px 0 10px 0;
-}
-
-.nav-links a {
-    color: #fff;
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 
