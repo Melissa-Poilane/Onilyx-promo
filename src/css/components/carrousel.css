@@ -1,5 +1,4 @@
 .carrousel {
-
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -16,12 +15,22 @@
     border-radius: 5px;
 }
 
-.carousel__element {
+.carrousel__card {
     flex: none;
     scroll-snap-align: start;
+    background-color: var(--howlite);
+    color: var(--onyx);
+    padding: 65px var(--space3x) var(--space1x) var(--space3x);
+    border-radius: 20px;
 }
 
 .carousel__title {
-  padding: 0;
-  margin: var(--space1x);
+    padding: 0;
+    margin: var(--space1x);
+}
+
+.carrousel__text {
+    width: 344px;
+    text-align: left;
+    margin-bottom: 10px;
 }

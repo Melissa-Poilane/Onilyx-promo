@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onilyx</title>
+    <title>Onylix</title>
 
     <link rel="icon" href="/public/icones/logosite.svg">
 
@@ -199,10 +199,12 @@
                 window.addEventListener('scroll', function () {
                     const parallax1 = document.querySelector('.nuage3');
                     const parallax2 = document.querySelector('.nuage1');
+                    const parallax3 = document.querySelector('.nuage7');
                     let scrollPosition = window.pageYOffset;
 
                     parallax1.style.transform = 'translateY(' + (-scrollPosition * 0.15) + 'px)';
                     parallax2.style.transform = 'translateY(' + (-scrollPosition * 0.1) + 'px)';
+                    parallax3.style.transform = 'translateY(' + (-scrollPosition * 0.15) + 'px)';
                 });
             </script>
         </div>
@@ -215,6 +217,7 @@
         <div class="hero__nuages-bottom">
             <img class="nuage5" src="/public/img/nuages2-r.svg" alt="image de nuage">
             <img class="nuage6" src="/public/img/nuages4-r.svg" alt="image de nuage">
+            <img class="nuage7" src="/public/img/nuages3-r.svg" alt="image de nuage">
         </div>
         <h1>Onylix</h1>
         <p class="hero__end--content">“Onylix” est bien plus qu’un projet, c’est une véritable expérience onirique ! Son
@@ -239,73 +242,75 @@
             <h2>Nos fonctionnalités</h2>
 
             <div class="carrousel">
-                <div class="carousel__element">
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/Icone-interpreter.svg"
-                                alt="logo de nuage">
-                            <h3>Interpréter</h3>
-                        </section>
-                        <p>Onylix offre la possibilité d’interpréter vos rêves ! L’IA vous transportera à travers les
-                            méandres de vos rêves,
-                            révélant leurs messages et les motifs récurrents qui guident votre esprit.</p>
-                    </div>
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/icone-journal.svg"
-                                alt="logo de journal">
-                            <h3>Sauvegarder</h3>
-                        </section>
-                        <p>Fini d’oublier vos rêves grâce à Onylix. Vous pouvez désormais enregistrer vos rêves les plus
-                            marquants et les
-                            sauvegarder en toute sécurité dans votre propre espace de rêve numérique.</p>
-                    </div>
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/Icone-interpreter.svg"
+                            alt="logo de nuage">
+                        <h3>Interpréter</h3>
+                    </section>
+                    <p class="carrousel__text">Onylix offre la possibilité d’interpréter vos rêves ! L’IA vous
+                        transportera à travers les
+                        méandres de vos rêves,
+                        révélant leurs messages et les motifs récurrents qui guident votre esprit.</p>
+                </div>
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/icone-partage.svg"
-                                alt="logo de partage">
-                            <h3>Partager</h3>
-                        </section>
-                        <p>Imaginez-vous plonger dans un monde où vos rêves ne sont pas seulement des expériences
-                            solitaires, mais des aventures
-                            partagées avec d'autres esprits curieux et créatifs.</p>
-                    </div>
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/icone-journal.svg" alt="logo de journal">
+                        <h3>Sauvegarder</h3>
+                    </section>
+                    <p class="carrousel__text">Fini d’oublier vos rêves grâce à Onylix. Vous pouvez désormais
+                        enregistrer vos rêves les plus
+                        marquants et les
+                        sauvegarder en toute sécurité dans votre propre espace de rêve numérique.</p>
+                </div>
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/icone-statistiques.svg"
-                                alt="logo de statistiques">
-                            <h3>Analyser</h3>
-                        </section>
-                        <p>Plongez dans une expérience d'analyse des rêves et laissez vos nuits être remplies de
-                            révélations. Avec Onylix, vous
-                            pouvez décoder les symboles, les motifs et les significations de vos rêves.</p>
-                    </div>
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/icone-partage.svg" alt="logo de partage">
+                        <h3>Partager</h3>
+                    </section>
+                    <p class="carrousel__text">Imaginez-vous plonger dans un monde où vos rêves ne sont pas seulement
+                        des expériences
+                        solitaires, mais des aventures
+                        partagées avec d'autres esprits curieux et créatifs.</p>
+                </div>
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/premium-card.svg"
-                                alt="logo de premium">
-                            <h3>Premium</h3>
-                        </section>
-                        <p>Avec l’abonnement Premium, vous entrez dans une dimension encore plus profonde de votre
-                            expérience onirique. Explorez
-                            des fonctionnalités conçues pour enrichir votre connexion avec vos rêves.</p>
-                    </div>
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/icone-statistiques.svg"
+                            alt="logo de statistiques">
+                        <h3>Analyser</h3>
+                    </section>
+                    <p class="carrousel__text">Plongez dans une expérience d'analyse des rêves et laissez vos nuits être
+                        remplies de
+                        révélations. Avec Onylix, vous
+                        pouvez décoder les symboles, les motifs et les significations de vos rêves.</p>
+                </div>
 
-                    <div class="carrousel__card">
-                        <section class="carrousel__card--start">
-                            <img class="carrousel__card--img" src="/public/icones/Icone-interpreter.svg"
-                                alt="logo de la pepite de la semaine">
-                            <h3>La pépite de la semaine</h3>
-                        </section>
-                        <p>Rejoignez-nous chaque samedi pour une expérience immersive et enrichissante, et laissez-vous
-                            emporter par le rêves le
-                            plus brillant et le plus stimulant de notre communauté.</p>
-                    </div>
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/premium-card.svg" alt="logo de premium">
+                        <h3>Premium</h3>
+                    </section>
+                    <p class="carrousel__text">Avec l’abonnement Premium, vous entrez dans une dimension plus
+                        profonde de votre
+                        expérience onirique. Explorez
+                        des fonctionnalités conçues pour enrichir votre compréhension des rêves.</p>
+                </div>
+
+                <div class="carrousel__card">
+                    <section class="carrousel__card--start">
+                        <img class="carrousel__card--img" src="/public/icones/Icone-interpreter.svg"
+                            alt="logo de la pepite de la semaine">
+                        <h3>La pépite de la semaine</h3>
+                    </section>
+                    <p class="carrousel__text">Rejoignez-nous chaque samedi pour une expérience immersive et
+                        enrichissante, et laissez-vous
+                        emporter par le rêves le
+                        plus brillant et le plus stimulant de notre communauté.</p>
                 </div>
 
             </div>

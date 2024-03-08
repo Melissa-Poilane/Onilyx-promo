@@ -65,7 +65,7 @@
 
 .nuage1 {
     position: absolute;
-    bottom: -47vh;
+    bottom: 0;
     z-index: 0;
 }
 
@@ -77,7 +77,7 @@
 
 .nuage3 {
     position: absolute;
-    bottom: -33vh;
+    bottom: 0;
     z-index: 2;
 }
 
@@ -99,12 +99,18 @@
     z-index: 3;
 }
 
+.nuage7 {
+    position: absolute;
+    top: -10px;
+    z-index: 2;
+}
+
 .hero__donload {
     margin-top: var(--space2x);
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 10%;
     z-index: 5;
 }
 

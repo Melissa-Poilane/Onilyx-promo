@@ -15,3 +15,7 @@
     color: #fff;
     text-decoration: none;
 }
+
+.menu__link:hover {
+    color: var(--amethyste);
+}
