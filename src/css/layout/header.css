@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
     padding: var(--space3x) var(--space5x) var(--space5x) var(--space5x);
     display: flex;
     justify-content: space-between;
