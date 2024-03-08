@@ -29,3 +29,32 @@
     color: var(--amethyste);
     border: 1px solid var(--amethyste);
 }
+
+.donload__btn {
+    text-decoration: none;
+    color: var(--howlite);
+    padding: var(--space1x) var(--space2x);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space1x);
+    border-radius: 14px;
+    background-color: var(--onyx);
+
+}
+
+.donload__text {
+    font-size: var(--body-2--normal);
+    line-height: 0;
+}
+
+.donload__content {
+    font-size: var(--h3--normal);
+    font-family: var(--font-roboto);
+}
+
+.donload__logo {
+    width: 60px;
+    height: 60px;
+}

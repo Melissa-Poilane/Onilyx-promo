@@ -17,3 +17,16 @@
 .header__end {
     margin-top: 0;
 }
+
+.header__start {
+    width: 167px;
+}
+
+.logo:hover .circle {
+    transform: rotate(360deg);
+}
+
+.logo .circle {
+    transition: 900ms;
+    transform-origin: center;
+}
