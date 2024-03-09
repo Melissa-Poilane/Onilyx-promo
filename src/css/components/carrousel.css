@@ -7,11 +7,40 @@
     text-align: center;
     gap: var(--space3x);
     margin-left: var(--space2x);
+    padding-right: var(--space6x);
+    padding-bottom: var(--space6x);
+    margin-bottom: var(--space2x);
+
+    scrollbar-width: thin;
+    /* pour Firefox */
+    scrollbar-color: var(--charoite) var(--onyx);
+    /* pour Firefox */
+
 }
 
-.carousel__image {
-    width: auto;
-    height: 290px;
+/* pour Chrome, Safari, et autres navigateurs basés sur WebKit */
+.carrousel::-webkit-scrollbar {
+    width: 10px;
+    /* largeur de la barre de défilement */
+}
+
+.carrousel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* couleur de la piste de la barre de défilement */
+}
+
+.carrousel::-webkit-scrollbar-thumb {
+    background: var(--onyx);
+    /* couleur de la barre de défilement */
+}
+
+.carrousel::-webkit-scrollbar-thumb:hover {
+    background: var(--amethyste);
+    /* couleur de la barre de défilement au survol */
+}
+
+.carrousel__card--img {
+    height: 118px;
     border-radius: 5px;
 }
 
@@ -19,18 +48,29 @@
     flex: none;
     scroll-snap-align: start;
     background-color: var(--howlite);
+    padding: 65px var(--space3x) var(--space2x) var(--space3x);
     color: var(--onyx);
-    padding: 65px var(--space3x) var(--space1x) var(--space3x);
     border-radius: 20px;
 }
 
 .carousel__title {
     padding: 0;
-    margin: var(--space1x);
+    padding-bottom: var(--space1x);
+    position: relative;
+}
+
+.carousel__title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    border-bottom: 2px solid var(--charoite);
+    margin: auto;
 }
 
 .carrousel__text {
     width: 344px;
     text-align: left;
-    margin-bottom: 10px;
 }

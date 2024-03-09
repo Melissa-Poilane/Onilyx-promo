@@ -83,3 +83,11 @@ button {
     align-items: center;
     flex-direction: column;
 }
+
+.container {
+    margin-left: var(--space5x);
+}
+
+.container__title {
+    margin-bottom: var(--space5x);
+}
