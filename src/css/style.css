@@ -18,12 +18,8 @@
 /* Components */
 @import"/src/css/components/menu.css";
 @import"/src/css/components/hero.css";
-@import"/src/css/components/section__card.css";
-@import "/src/css/components/cast__card.css";
-@import "/src/css/components/project__card.css";
 @import"/src/css/components/flipable.css";
-@import "/src/css/components/wiki-card.css";
 @import "/src/css/components/carrousel.css";
 @import "/src/css/components/btn.css";
-@import "/src/css/components/glossaire.css";
 @import "/src/css/components/form.css";
+@import "/src/css/components/premium-section.css";

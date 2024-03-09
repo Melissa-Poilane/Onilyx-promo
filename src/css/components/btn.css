@@ -58,3 +58,15 @@
     width: 50px;
     height: 50px;
 }
+
+.cards__btn {
+    padding: var(--space1x) var(--space3x);
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    background-color: var(--charoite);
+}
+
+.cards__btn--text {
+    color: var(--howlite);
+}

@@ -314,72 +314,85 @@
             </div>
 
         </section>
+        <div id="premium" class="section__title">
+            <img class="section__title--first" src="/public/img/Default.svg" alt="image de nuage">
+            <h1 class="section__title--content">Nos offres Premium</h1>
+            <img class="section__title--last" src="/public/img/Default.svg" alt="image de nuage">
+        </div>
 
-        <img src="/public/img/Default.svg" alt="image de nuage">
-        <h1>Nos offres Premium</h1>
-        <img src="/public/img/Default.svg" alt="image de nuage">
+        <script>
+            window.addEventListener('scroll', function () {
+                const parallax4 = document.querySelector('.section__title--first');
+                const parallax5 = document.querySelector('.section__title--last');
 
-        <div class="cards">
-            <section class="cards__title">
-                <h3>Premium +</h3>
-                <img src="/public/icones/premium.svg" alt="logo de premium">
-            </section>
+                let scrollPosition = window.pageYOffset;
 
-            <section class="cards__prix">
-                <h2><span>4,98€/</span>mois</h2>
-            </section>
+                parallax4.style.transform = 'translateX(' + (scrollPosition * 0.05) + 'px)';
+                parallax5.style.transform = 'translateX(' + (-scrollPosition * 0.05) + 'px)';
+            });
+        </script>
+        <div class="section__premium ">
+            <div class="cards">
+                <section class="cards__title">
+                    <h3>Premium +</h3>
+                    <img src="/public/icones/premium.svg" alt="logo de premium">
+                </section>
 
-            <div class="cards__content">
-                <div class="cards__text">
-                    <img src="/public/icones/infini.svg" alt="logo infini">
-                    <p>Interprétez Vos rêves en illimité</p>
+                <section class="cards__prix">
+                    <h2><span class="cards__prix--tarif">4,98€/</span>mois</h2>
+                </section>
+
+                <div class="cards__content">
+                    <div class="cards__text">
+                        <img src="/public/icones/infini.svg" alt="logo infini">
+                        <p>Interprétez Vos rêves en illimité</p>
+                    </div>
+                    <div class="cards__text">
+                        <img src="/public/icones/stats-cartes-premium.svg" alt="logo de statistiques">
+                        <p>Analysez vos rêves</p>
+                    </div>
+                    <div class="cards__text">
+                        <img src="/public/icones/ecrire.svg" alt="logo de crayon">
+                        <p>Personnalisez votre profil</p>
+                    </div>
+                    <div class="cards__text--last">
+                        <p>Vous pouvez résilier quand vous voulez</p>
+                    </div>
+                    <div class="cards__btn">
+                        <a href="#">
+                            <h3 class="cards__btn--text">Obtenez Premium +</h3>
+                        </a>
+                    </div>
                 </div>
-                <div class="cards__text">
-                    <img src="/public/icones/stats-cartes-premium.svg" alt="logo de statistiques">
-                    <p>Analysez vos rêves</p>
-                </div>
-                <div class="cards__text">
-                    <img src="/public/icones/ecrire.svg" alt="logo de crayon">
-                    <p>Interprétez Vos rêves en illimité</p>
-                </div>
-                <div class="cards__text">
-                    <p>Vous pouvez résilier quand vous voulez</p>
-                </div>
-                <div class="cards__btn">
-                    <a href="#">
-                        <h3>Obtenez Premium +</h3>
-                    </a>
+            </div>
+
+            <div class="cards">
+                <section class="cards__title">
+                    <h3>Premium</h3>
+                    <img src="/public/icones/premium.svg" alt="logo de premium">
+                </section>
+
+                <section class="cards__prix">
+                    <h2><span class="cards__prix--tarif">1,99€/</span>mois</h2>
+                </section>
+
+                <div class="cards__content">
+                    <div class="cards__text-premium">
+                        <img src="/public/icones/infini.svg" alt="logo infini">
+                        <p>Interprétez Vos rêves en illimité</p>
+                    </div>
+
+                    <div class="cards__text--last">
+                        <p>Vous pouvez résilier quand vous voulez</p>
+                    </div>
+                    <div class="cards__btn">
+                        <a href="#">
+                            <h3 class="cards__btn--text">Obtenez Premium</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="cards">
-            <section class="cards__title">
-                <h3>Premium</h3>
-                <img src="/public/icones/premium.svg" alt="logo de premium">
-            </section>
-
-            <section class="cards__prix">
-                <h2><span>1,99€/</span>mois</h2>
-            </section>
-
-            <div class="cards__content">
-                <div class="cards__text">
-                    <img src="/public/icones/infini.svg" alt="logo infini">
-                    <p>Interprétez Vos rêves en illimité</p>
-                </div>
-
-                <div class="cards__text">
-                    <p>Vous pouvez résilier quand vous voulez</p>
-                </div>
-                <div class="cards__btn">
-                    <a href="#">
-                        <h3>Obtenez Premium</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
         <h1>L'équipe <span>de choc</span></h1>
 
         <div class="flippables center">
