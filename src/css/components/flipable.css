@@ -1,10 +1,24 @@
+.flippables {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: var(--space4x);
+    justify-items: center;
+    padding: var(--space4x) 60px var(--space6x) 60px;
+}
+
 .flipable {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
-    width: 165px;
-    height: 165px;
+    width: 405px;
+    height: 550px;
     display: inline-block;
+}
+
+.flip {
+    transform: rotateY(180deg);
 }
 
 .flipable.flip {
@@ -28,212 +42,64 @@
 }
 
 .flipable .face {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.musique1 .back {
-    background: url(/public/img/cards/flipables/musique1-2.webp);
+.flippables__contact {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: var(--space3x);
+    margin-top: 482px;
+}
+
+.hugo .back {
+    background: url(/public/img/hugo-back.webp);
     background-size: cover;
 }
 
-.musique1 .front {
-    background-image: url(/public/img/cards/flipables/musique1-1.webp);
+.hugo .front {
+    background-image: url(/public/img/front-hugo.webp);
     background-size: 100%;
     transition: background 0.3s;
 }
 
-.musique1 .front:hover {
+.hugo .front:hover {
     background-size: 110%;
     background-position: 50% 50%;
     transition: background 0.5s;
 }
 
 
-.musique2 .back {
-    background: url(/public/img/cards/flipables/musique2-2.webp);
+.romain .back {
+    background: url(/public/img/romain-back.webp);
     background-size: cover;
 }
 
-.musique2 .front {
-    background-image: url(/public/img/cards/flipables/musique2-1.webp);
+.romain .front {
+    background-image: url(/public/img/front-romain.webp);
     background-size: 100%;
     transition: background 0.3s;
 }
 
-.musique2 .front:hover {
+.romain .front:hover {
     background-size: 110%;
     background-position: 50% 50%;
     transition: background 0.5s;
 }
 
-.musique3 .back {
-    background: url(/public/img/cards/flipables/musique3-2.webp);
+.melissa .back {
+    background: url(/public/img/melissa-back.webp);
     background-size: cover;
 }
 
-.musique3 .front {
-    background-image: url(/public/img/cards/flipables/musique3-1.webp);
+.melissa .front {
+    background-image: url(/public/img/front-mel.webp);
     background-size: 100%;
     transition: background 0.3s;
 }
 
-.musique3 .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film1 .back {
-    background: url(/public/img/cards/flipables/film1-2.webp);
-    background-size: cover;
-}
-
-.film1 .front {
-    background-image: url(/public/img/cards/flipables/film1-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film1 .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film2--en .back {
-    background: url(/public/img/cards/flipables/film2-2-en.webp);
-    background-size: cover;
-}
-
-.film2--en .front {
-    background-image: url(/public/img/cards/flipables/film2-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film2--en .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film3--en .back {
-    background: url(/public/img/cards/flipables/film3-3-en.webp);
-    background-size: cover;
-}
-
-.film3--en .front {
-    background-image: url(/public/img/cards/flipables/film3-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film3--en .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film1--en .back {
-    background: url(/public/img/cards/flipables/film1-2-en.webp);
-    background-size: cover;
-}
-
-.film1--en .front {
-    background-image: url(/public/img/cards/flipables/film1-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film1--en .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film2 .back {
-    background: url(/public/img/cards/flipables/film2-2.webp);
-    background-size: cover;
-}
-
-.film2 .front {
-    background-image: url(/public/img/cards/flipables/film2-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film2 .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.film3 .back {
-    background: url(/public/img/cards/flipables/film3-2.webp);
-    background-size: cover;
-}
-
-.film3 .front {
-    background-image: url(/public/img/cards/flipables/film3-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.film3 .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-
-
-.musique1--en .back {
-    background: url(/public/img/cards/flipables/musique1-2--en.webp);
-    background-size: cover;
-}
-
-.musique1--en .front {
-    background-image: url(/public/img/cards/flipables/musique1-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.musique1--en .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-
-.musique2--en .back {
-    background: url(/public/img/cards/flipables/musique2-2--en.webp);
-    background-size: cover;
-}
-
-.musique2--en .front {
-    background-image: url(/public/img/cards/flipables/musique2-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.musique2--en .front:hover {
-    background-size: 110%;
-    background-position: 50% 50%;
-    transition: background 0.5s;
-}
-
-.musique3--en .back {
-    background: url(/public/img/cards/flipables/musique3-2--en.webp);
-    background-size: cover;
-}
-
-.musique3--en .front {
-    background-image: url(/public/img/cards/flipables/musique3-1.webp);
-    background-size: 100%;
-    transition: background 0.3s;
-}
-
-.musique3--en .front:hover {
+.melissa .front:hover {
     background-size: 110%;
     background-position: 50% 50%;
     transition: background 0.5s;

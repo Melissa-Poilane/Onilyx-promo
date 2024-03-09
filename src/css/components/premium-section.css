@@ -15,12 +15,13 @@
 
 .section__premium {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-items: center;
+    align-items: center;
     align-items: end;
-    margin-left: 20%;
-    margin-right: 20%;
-    gap: var(--space5x);
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: var(--space4x);
     margin-bottom: var(--space7x);
 }
 
