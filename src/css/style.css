@@ -23,3 +23,8 @@
 @import "/src/css/components/btn.css";
 @import "/src/css/components/form.css";
 @import "/src/css/components/premium-section.css";
+
+.actif {
+    color: var(--amethyste);
+    border-color: var(--amethyste);
+}

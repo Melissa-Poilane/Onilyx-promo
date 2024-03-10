@@ -72,13 +72,6 @@ a {
     z-index: -1;
 }
 
-button {
-    appearance: none;
-    border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-}
 
 .list-unstyled {
     list-style: none;
@@ -118,4 +111,27 @@ button {
     width: 35%;
     border-top: 2px solid var(--amethyste);
     margin: auto;
+}
+
+.degrade {
+    position: relative;
+}
+
+.degrade__::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(112, 86, 166, 1), rgba(51, 15, 127, 1));
+    z-index: -1;
+}
+
+.about {
+    margin-top: var(--space6x);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }

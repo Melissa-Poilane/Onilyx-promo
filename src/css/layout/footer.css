@@ -5,12 +5,6 @@
     justify-content: space-between;
 }
 
-.footer__start {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-
-}
 
 .footer__start a {
     text-decoration: none;
@@ -53,4 +47,10 @@
 
 .footer__menu a:hover {
     color: var(--amethyste);
+}
+
+.footer__start {
+    display: flex;
+    align-items: center;
+    gap: var(--space3x);
 }

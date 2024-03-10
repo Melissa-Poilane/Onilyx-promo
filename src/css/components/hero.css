@@ -10,7 +10,7 @@
     top: 33vh;
     width: 100%;
     height: 100px;
-    z-index: 0;
+    z-index: -1;
 
 }
 
@@ -41,7 +41,9 @@
 .hero__img {
     position: relative;
     z-index: 5;
-    padding: 0 120px;
+    margin-bottom: -60px;
+    margin-top: -60px;
+
 }
 
 .hero__title {
@@ -106,7 +108,6 @@
 }
 
 .hero__donload {
-    margin-top: var(--space2x);
     position: relative;
     display: flex;
     justify-content: center;

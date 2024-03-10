@@ -1,130 +1,108 @@
-.formulaire {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    padding: 20px;
-    border-radius: 5px;
+.degrade {
+    background: linear-gradient(var(--jade-lilas) 0%, var(--lapis-lazulis) 100%);
+
 }
 
-.formulaire__content {
-    color: var(--orange-clair);
-    margin-bottom: var(--space1x);
+.formulaire-contact {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.contact {
+    background-color: var(--howlite);
+    margin-top: 200px;
+    color: var(--onyx);
+    margin: var(--space5x);
+    margin-top: 200px;
+    border-radius: 40px;
+    padding: var(--space3x) var(--space4x) var(--space3x) var(--space4x);
+}
+
+.contact__title {
+    line-height: 1;
+    padding: 0;
+    margin-bottom: -20px;
+    color: var(--jade-lilas);
+}
+
+label {
+    font-size: var(--h4--petit);
+    font-family: var(--font-nanami-R);
+}
+
+input {
+    font-size: var(--body-2--normal);
+    font-family: var(--font-delm);
+}
+
+input[type=text],
+textarea {
+    display: flex;
+    width: 70%;
+    padding: var(--space2x) var(--space1x);
+    margin: 10px 0;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    background-color: var(--violet-pale);
 }
 
 input::placeholder {
-    color: var(--orange-clair);
-}
-
-.adresse__text {
-    background-color: var(--noir);
-    width: 100%;
-    height: 30px;
-    border: 0px;
-    border-bottom: 1.2px solid var(--orange-clair);
-
-}
-
-.prenom__text {
-    background-color: var(--noir);
-    width: 100%;
-    height: 30px;
-    border: 0px;
-    border-bottom: 1.2px solid var(--orange-clair);
-}
-
-.email__text {
-    background-color: var(--noir);
-    font-family: var(--body-petit);
-    width: 100%;
-    height: 30px;
-    border: 0px;
-    border-bottom: 1.2px solid var(--orange-clair);
-}
-
-.message__text {
-    margin-top: 1vh;
-    background-color: var(--noir);
-    width: 100%;
-    height: 115px;
-    border-color: var(--orange-clair);
-    border-width: 1.2px;
-    border-radius: 5px;
-    padding-left: 10px;
+    color: var(--onyx);
+    font-size: var(--body-2--normal);
 }
 
 textarea::placeholder {
-    color: var(--orange-clair);
+    color: var(--onyx);
+    font-size: var(--body-2--normal);
 }
 
-.formulaire__nom>span {
-
-    color: var(--rose-qui-pete);
+input[type=submit] {
+    width: 70%;
+    background-color: var(--jade-lilas);
+    color: var(--howlite);
+    padding-top: var(--space2x);
+    padding-bottom: var(--space2x);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: var(--font-nanami-R);
+    font-size: var(--body-3--petit);
 }
 
-.formulaire__container {
-    text-align: center;
-
+input[type=submit]:hover {
+    background-color: var(--lapis-lazulis);
 }
 
-.formulaire__btn {
-    background-color: var(--rouge);
-    font-size: var(--button);
-    letter-spacing: var(--letter-spacing);
-    color: var(--blanc);
-    font-family: var(--font-novecento);
-    padding: 20px 30px;
-    border-radius: 5px;
-
+.mascotte {
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    right: 110px;
 }
 
-small {
-    margin-top: -15px;
+.mascotte__back {
+    z-index: 0;
+    position: absolute;
+    top: 20vh;
+    right: 70px;
 }
 
-.contact-start {
-    margin-top: var(--space3x);
+.contact__title--small {
+    font-size: var(--body-2--normal);
+    color: var(--jade-lilas);
+    margin-bottom: -30px;
 }
 
-input[type="checkbox"] {
-    appearance: none;
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
+.form__end {
     position: relative;
 }
 
-input[type="checkbox"]::before {
-    content: "";
-    display: block;
-    width: 16px;
-    height: 15px;
-    border: 1.3px solid var(--rouge);
-    background-color: var(--blanc);
-    border-radius: 2px;
+.contact__adress {
     position: absolute;
-    top: 5px;
-}
-
-input[type="checkbox"]:checked::before {
-    border: 1px solid var(--vert-qui-pete);
-    background-image: url(/public/icones/check.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: var(--vert-qui-pete);
-}
-
-.checkable {
-    margin-bottom: 0;
-    margin-top: var(--space1x);
-    font-size: var(--body-3);
-    line-height: 1.2;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    color: var(--orange-clair);
+    width: 250px;
+    top: 300px;
+    right: 50px;
 }
