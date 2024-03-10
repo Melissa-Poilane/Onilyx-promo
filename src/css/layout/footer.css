@@ -1,78 +1,56 @@
 .footer {
-    position: relative;
-    margin-top: var(--space3x);
-    background-color: var(--charbon);
-    color: var(--gris-clair);
-    padding: var(--space6x) var(--space3x);
+    background-color: var(--onyx);
+    padding: var(--space4x) var(--space5x);
     display: flex;
-    flex-direction: column;
-}
-
-.footer a {
-    color: var(--gris-clair);
-    text-decoration: none;
+    justify-content: space-between;
 }
 
 .footer__start {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: var(--space2x);
+    gap: 3px;
+
 }
 
-.footer__menu {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: var(--space2x);
+.footer__start a {
+    text-decoration: none;
+    color: var(--howlite);
 }
 
-.footer__title {
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: var(--heading-5);
-    color: var(--gris-foncé);
-    margin-bottom: 0;
+.footer__start a:hover {
+    color: var(--amethyste);
 }
 
-.footer__list {
-    font-size: var(--body-3);
-    line-height: 1;
-}
-
-.footer__list--social {
-    margin-top: var(--space1x);
-    margin-bottom: var(--space2x);
-    display: flex;
-    gap: var(--space3x);
-
+.footer__logo--title {
+    color: var(--howlite);
+    font-size: var(--h3--normal);
+    font-family: var(--font-nanami-B);
 }
 
 .footer__end {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 0;
-    font-size: var(--body-3);
-}
-.footer__end--text {
-   line-height: 0;
-}
-
-.footer__end--langue {
-    position: absolute;
-    right: 0;
-    bottom: var(--space6x);
-    margin-right: var(--space3x);
-    display: flex;
     justify-content: flex-end;
-    align-items: baseline;
-    gap: var(--space1x);
-
+    align-items: center;
 }
 
+.footer__list--social {
+    display: flex;
+    gap: 60px;
+    padding-right: 60px;
+    border-right: 2px solid var(--howlite);
+    height: 30px;
+    align-items: center;
+}
 
+.footer__menu {
+    padding-left: 60px;
+}
 
-.footer__logo--title {
-    font-size: var(--body-3);
-    line-height: 0;
+.footer__menu a {
+    text-decoration: none;
+    color: var(--howlite);
+}
+
+.footer__menu a:hover {
+    color: var(--amethyste);
 }

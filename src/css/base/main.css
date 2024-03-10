@@ -40,6 +40,10 @@ h2 {
     font-size: var(--h2--gros);
 }
 
+.h2 {
+    font-size: var(--h1--tres-gros);
+}
+
 h3 {
     font-size: var(---h3--normal);
 }
@@ -51,6 +55,7 @@ h4 {
 a {
     text-decoration: none;
 }
+
 
 .degrade__body {
     position: relative;
@@ -94,4 +99,23 @@ button {
 
 .container__title {
     margin-bottom: var(--space5x);
+}
+
+.title {
+    padding-top: var(--space4x);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 35%;
+    border-top: 2px solid var(--amethyste);
+    margin: auto;
 }

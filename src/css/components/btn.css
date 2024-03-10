@@ -65,8 +65,14 @@
     justify-content: center;
     border-radius: 14px;
     background-color: var(--charoite);
+    transition: 200ms ease-in-out;
 }
 
 .cards__btn--text {
     color: var(--howlite);
+}
+
+.cards__btn:hover {
+
+    background-color: var(--lapis-lazulis);
 }
