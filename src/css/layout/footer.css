@@ -6,15 +6,6 @@
 }
 
 
-.footer__start a {
-    text-decoration: none;
-    color: var(--howlite);
-}
-
-.footer__start a:hover {
-    color: var(--amethyste);
-}
-
 .footer__logo--title {
     color: var(--howlite);
     font-size: var(--h3--normal);
@@ -47,10 +38,4 @@
 
 .footer__menu a:hover {
     color: var(--amethyste);
-}
-
-.footer__start {
-    display: flex;
-    align-items: center;
-    gap: var(--space3x);
 }
