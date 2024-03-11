@@ -54,6 +54,7 @@ h4 {
 
 a {
     text-decoration: none;
+    color: var(--amethyste);
 }
 
 
@@ -134,4 +135,10 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.section {
+    margin-bottom: 80px;
+    margin-left: var(--space4x);
+    margin-right: var(--space4x);
 }

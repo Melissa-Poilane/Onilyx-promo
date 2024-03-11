@@ -113,9 +113,9 @@
         </div>
         <nav class="header__menu menu">
             <ul class="menu__list list-unstyled">
-                <li class="menu__item"><a class="menu__link" href="#about">A&nbsp;PROPOS</a></li>
-                <li class="menu__item"><a class="menu__link" href="#fonction">FONCTIONNALITÉS</a></li>
-                <li class="menu__item"><a class="menu__link " href="#premium">PREMIUM</a></li>
+                <li class="menu__item"><a class="menu__link" href="/index.html#about">A&nbsp;PROPOS</a></li>
+                <li class="menu__item"><a class="menu__link" href="/index.html#fonction">FONCTIONNALITÉS</a></li>
+                <li class="menu__item"><a class="menu__link " href="/index.html#premium">PREMIUM</a></li>
             </ul>
         </nav>
         <div class="header__end">
@@ -166,7 +166,7 @@
             <p>Une question, un commentaire... Nous vous écoutons !</p>
 
             <div class="formulaire-contact">
-                <form action="/ma_page_de_traitement" method="post">
+                <form>
                     <label for="nom">Nom complet</label>
                     <input type="text" id="nom" name="nom_complet" placeholder="Ex: Mélissa Poilâne">
 
@@ -200,10 +200,12 @@
     <footer class="footer ">
         <div class="footer__start">
             <a href="/">
-                <img src="/public/icones/logo-du-site.svg" alt="Logo du site">
+                <div class="footer__logo">
+                    <img src="/public/icones/logo-du-site.svg" alt="Logo du site">
 
-                <div class="footer__logo--title">
-                    <p>nylix</p>
+                    <div class="footer__logo--title">
+                        <p>nylix</p>
+                    </div>
                 </div>
             </a>
         </div>
@@ -211,17 +213,17 @@
         <div class="footer__end">
             <ul class="footer__list--social list-unstyled">
                 <li><a href="#" aria-label="Instagram">
-                        <img src="/public/icones/instagram.svg" alt="logo de instagram">
+                        <img class="footer__icon--social" src="/public/icones/instagram.svg" alt="logo de instagram">
                     </a></li>
                 <li><a href="#" aria-label="X">
-                        <img src="/public/icones/twitter.svg" alt="logo de X">
+                        <img class="footer__icon--social" src="/public/icones/twitter.svg" alt="logo de X">
                     </a></li>
                 <li><a href="#" aria-label="youtube">
-                        <img src="/public/icones/youtube.svg" alt="logo de youtube">
+                        <img class="footer__icon--social" src="/public/icones/youtube.svg" alt="logo de youtube">
                     </a></li>
             </ul>
             <nav class="footer__menu">
-                <a href="/mentions-legales.html">INFORMATIONS LEGALES</a>
+                <a href="/mentions-legales.html">INFORMATIONS LÉGALES</a>
             </nav>
         </div>
     </footer>

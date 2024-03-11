@@ -19,3 +19,10 @@
 .menu__link:hover {
     color: var(--amethyste);
 }
+
+.legal__menu {
+    margin-top: 200px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: var(--space4x);
+}

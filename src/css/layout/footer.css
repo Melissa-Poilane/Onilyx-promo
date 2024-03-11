@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--onyx);
-    padding: var(--space4x) var(--space5x);
+    padding: var(--space2x) var(--space5x);
+
     display: flex;
     justify-content: space-between;
 }
@@ -38,4 +39,14 @@
 
 .footer__menu a:hover {
     color: var(--amethyste);
+}
+
+.footer__logo {
+    display: flex;
+    gap: 3px;
+}
+
+.footer__icon--social {
+    width: 30px;
+    height: 30px;
 }
